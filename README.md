@@ -1,17 +1,25 @@
 # Rocket-Elevators-Javascript-Controller
-This is the template to use for the javascript residential controller. You will find the classes that should be used along with some methods described in the requirements.
-The necessary files to run some tests are also present. With Node JS and NPM installed, first run:
 
-`npm install`
+This program controls a Column of elevators.
 
-and then, to run the tests:
+It sends an elevator when a user presses a button on a floor and it takes
+a user to its desired floor when a button is pressed from the inside the elevator
 
-`npm test`
+Elevator selection is based on the users location when requesting an elevator
 
-With a fully completed project, you should get an output like:
+# Dependencies
 
-![Screenshot from 2021-06-10 16-31-36](https://user-images.githubusercontent.com/28630658/121592985-5edd2600-ca09-11eb-9ff0-38215b74c67c.png)
+To be able to try the program, you need to install npm
 
-All of these files can be left in your final project but no scenarios should be present in your code. The grader will run tests similar to the ones provided.
+- Dependency #1: "npm" is needed to test the elevator controller and make sure the code is operating properly to function the elevators with the controller
 
-Of course, make sure to edit this Readme file to describe your own project!
+# Usage
+
+Used to operate elevators in a residential building for people transporting through out the building
+
+## Example
+1. open terminal 
+2. you need to type "npm install" in your terminal
+3. cd to the location of the file in your terminal and make sure you are in the right location by typing "ls" 
+4. type "npm test" to test the elevator controller
+5. should get a result saying "all tests passed"

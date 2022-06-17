@@ -146,7 +146,7 @@ DEFINE Elevator USING _id AND _status AND _amountOfFloors AND _currentFloor
                 ENDWHILE
             ENDIF
             SET THIS status TO stopped
-            REMOVE first element OF THIS requestList
+            REMOVE first element OF THIS requestList 
         ENDWHILE
         SET THIS status TO idle
     ENDSEQUENCE
