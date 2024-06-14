@@ -1,6 +1,6 @@
 # Rocket-Elevators-Javascript-Controller
 
-This program controls a Column of elevators.
+This program was built using Node.js and controls a Column of elevators.
 
 It sends an elevator when a user presses a button on a floor and it takes
 a user to its desired floor when a button is pressed from the inside the elevator

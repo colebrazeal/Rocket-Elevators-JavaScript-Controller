@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator Controller</title>
+    <link rel="stylesheet" src="style.css" >
+</head>
+<body>
+    <div class="container">
+        <h1>Elevator Controller</h1>
+        <div class="floor-input">
+            <label for="requested-floor">Requested Floor:</label>
+            <select id="requested-floor">
+                <ul>
+                    <li>
+                        <a>1</a>
+                    </li>
+                    <li>
+                        <a>2</a>
+                    </li>
+                    <li>
+                        <a>3</a>
+                    </li>
+                    <li>
+                        <a>4</a>
+                    </li>
+                    <li>
+                        <a>5</a>
+                    </li>
+                    <li>
+                        <a>6</a>
+                    </li>
+                    <li>
+                        <a>7</a>
+                    </li>
+                    <li>
+                        <a>8</a>
+                    </li>
+                    <li>
+                        <a>9</a>
+                    </li>
+                    <li>
+                        <a>10</a>
+                    </li>
+                </ul>
+            </select>
+        </div>
+        <div class="direction-input">
+            <label for="direction">Direction:</label>
+            <select id="direction">
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+            </select>
+        </div>
+        <div class="destination-input">
+            <label for="destination-floor">Destination Floor:</label>
+            <select id="destination-floor">
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+        <button id="request-elevator">Request Elevator</button>
+        <div class="results" id="results"></div>
+    </div>
+
+    <script src="test.js"></script>
+    <!-- <script src="residential_controller.js"></script> -->
+</body>
+</html>
